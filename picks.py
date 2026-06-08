@@ -4,11 +4,13 @@ import json, io, sys
 from collections import defaultdict
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
 P = r'C:\Users\simon\Projects\pollawc2026'
-TAG = sys.argv[1] if len(sys.argv) > 1 else ''        # '' -> Entries A & B; 'C' -> Entry C (3-source model)
-SUF = f'_{TAG}' if TAG else ''
-sim = json.load(open(f'{P}\\output\\sim_results{SUF}.json', encoding='utf-8'))
+TAG = sys.argv[1] if len(sys.argv) > 1 else ''        # '' -> Entries A & B; 'C' -> Entry C
+# ALL entries now run on the corrected 3-source strength (Elo+Massey+market, +injuries) — the
+# sim_results_C / blends_C engine. TAG only controls which entry's champion override is applied.
+# This removes the CONMEBOL/Elo-inflation artifacts (Group E->Germany, no Ecuador>Brazil, Turkey>Belgium).
+sim = json.load(open(f'{P}\\output\\sim_results_C.json', encoding='utf-8'))
 teams = sim['teams']; GP = sim['group_pred']
-bl = json.load(open(f'{P}\\output\\blends{SUF}.json', encoding='utf-8'))
+bl = json.load(open(f'{P}\\output\\blends_C.json', encoding='utf-8'))
 CH = bl['market_leaning']; FIELD = bl['field']; SIMCH = bl['sim_ch']; MKT = bl['market_full']
 draw = json.load(open(f'{P}\\data\\draw_verified.json', encoding='utf-8'))
 GROUPS = draw['groups']
