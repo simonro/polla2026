@@ -1,0 +1,21 @@
+{
+  "_source": "theanalyst.com Opta supercomputer groups preview, pub 2026-06-03",
+  "_caution": "advance_pct values are LLM-extracted and look rounded; use as secondary cross-check only. Group assignments treated as reliable but verified separately.",
+  "champion_odds_pct": {
+    "Spain": 25, "Argentina": 22, "France": 20, "England": 18, "Germany": 15
+  },
+  "groups": {
+    "A": ["Mexico", "South Africa", "South Korea", "Czechia"],
+    "B": ["Canada", "Switzerland", "Bosnia-Herzegovina", "Qatar"],
+    "C": ["Brazil", "Morocco", "Scotland", "Haiti"],
+    "D": ["United States", "Paraguay", "Australia", "Türkiye"],
+    "E": ["Germany", "Ivory Coast", "Ecuador", "Curaçao"],
+    "F": ["Netherlands", "Sweden", "Japan", "Tunisia"],
+    "G": ["Belgium", "Egypt", "Iran", "New Zealand"],
+    "H": ["Spain", "Uruguay", "Cape Verde", "Saudi Arabia"],
+    "I": ["France", "Senegal", "Norway", "Iraq"],
+    "J": ["Argentina", "Austria", "Algeria", "Jordan"],
+    "K": ["Portugal", "Colombia", "Uzbekistan", "DR Congo"],
+    "L": ["England", "Croatia", "Ghana", "Panama"]
+  }
+}

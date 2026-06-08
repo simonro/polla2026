@@ -1,0 +1,130 @@
+﻿== GROUP STAGE: exact scores (2 pts each) ==
+Group A,Mexico,2-0,South Africa,High
+Group A,South Korea,1-1,Czech Republic,Low
+Group A,Czech Republic,1-0,South Africa,High
+Group A,Mexico,1-0,South Korea,High
+Group A,Mexico,1-0,Czech Republic,High
+Group A,South Africa,0-1,South Korea,High
+Group B,Canada,2-0,Bosnia and Herzegovina,High
+Group B,Qatar,0-2,Switzerland,High
+Group B,Switzerland,2-0,Bosnia and Herzegovina,High
+Group B,Canada,2-0,Qatar,High
+Group B,Canada,1-1,Switzerland,Low
+Group B,Bosnia and Herzegovina,1-1,Qatar,High
+Group C,Brazil,1-1,Morocco,Med
+Group C,Haiti,0-1,Scotland,High
+Group C,Scotland,1-1,Morocco,Med
+Group C,Brazil,2-0,Haiti,High
+Group C,Scotland,1-1,Brazil,Med
+Group C,Morocco,2-0,Haiti,High
+Group D,United States,1-1,Paraguay,Low
+Group D,Australia,1-1,Turkey,Med
+Group D,United States,1-1,Australia,Med
+Group D,Turkey,1-1,Paraguay,Med
+Group D,United States,1-1,Turkey,Med
+Group D,Paraguay,1-1,Australia,Med
+Group E,Germany,2-0,Curaçao,High
+Group E,Ivory Coast,0-1,Ecuador,High
+Group E,Germany,1-0,Ivory Coast,High
+Group E,Ecuador,2-0,Curaçao,High
+Group E,Curaçao,0-1,Ivory Coast,High
+Group E,Ecuador,1-1,Germany,Low
+Group F,Netherlands,1-1,Japan,Low
+Group F,Sweden,1-1,Tunisia,Med
+Group F,Netherlands,1-0,Sweden,High
+Group F,Tunisia,0-1,Japan,High
+Group F,Japan,1-1,Sweden,Med
+Group F,Tunisia,0-2,Netherlands,High
+Group G,Belgium,1-0,Egypt,High
+Group G,Iran,1-0,New Zealand,High
+Group G,Belgium,1-1,Iran,Med
+Group G,New Zealand,1-1,Egypt,Med
+Group G,Egypt,1-1,Iran,Med
+Group G,New Zealand,0-2,Belgium,High
+Group H,Spain,2-0,Cape Verde,High
+Group H,Saudi Arabia,0-2,Uruguay,High
+Group H,Spain,2-0,Saudi Arabia,High
+Group H,Uruguay,2-0,Cape Verde,High
+Group H,Cape Verde,1-1,Saudi Arabia,Low
+Group H,Uruguay,0-2,Spain,High
+Group I,France,1-0,Senegal,High
+Group I,Iraq,0-2,Norway,High
+Group I,France,2-0,Iraq,High
+Group I,Norway,1-1,Senegal,Med
+Group I,Norway,1-1,France,Med
+Group I,Senegal,1-0,Iraq,High
+Group J,Argentina,2-0,Algeria,High
+Group J,Austria,1-1,Jordan,Med
+Group J,Argentina,1-0,Austria,High
+Group J,Jordan,1-1,Algeria,Med
+Group J,Algeria,1-1,Austria,Med
+Group J,Jordan,0-2,Argentina,High
+Group K,Portugal,2-0,DR Congo,High
+Group K,Uzbekistan,0-1,Colombia,High
+Group K,Portugal,2-0,Uzbekistan,High
+Group K,Colombia,2-0,DR Congo,High
+Group K,Colombia,1-1,Portugal,Low
+Group K,DR Congo,1-1,Uzbekistan,Med
+Group L,England,1-1,Croatia,Med
+Group L,Ghana,0-1,Panama,High
+Group L,England,2-0,Ghana,High
+Group L,Panama,0-1,Croatia,High
+Group L,Panama,0-2,England,High
+Group L,Croatia,2-0,Ghana,High
+
+== GROUP STANDINGS (1st / 2nd / 3rd) ==
+Group A,1st: Mexico,2nd: South Korea,3rd: Czech Republic
+Group B,1st: Switzerland,2nd: Canada,3rd: Bosnia and Herzegovina
+Group C,1st: Brazil,2nd: Morocco,3rd: Scotland
+Group D,1st: Turkey,2nd: Paraguay,3rd: United States
+Group E,1st: Ecuador,2nd: Germany,3rd: Ivory Coast
+Group F,1st: Netherlands,2nd: Japan,3rd: Sweden
+Group G,1st: Belgium,2nd: Iran,3rd: Egypt
+Group H,1st: Spain,2nd: Uruguay,3rd: Cape Verde
+Group I,1st: France,2nd: Norway,3rd: Senegal
+Group J,1st: Argentina,2nd: Austria,3rd: Algeria
+Group K,1st: Portugal,2nd: Colombia,3rd: Uzbekistan
+Group L,1st: England,2nd: Croatia,3rd: Panama
+
+== BEST 8 THIRD-PLACE (ranked) ==,Senegal,Scotland,Czech Republic,United States,Egypt,Ivory Coast,Panama,Sweden
+
+== ROUND OF 32 winners (16) ==
+M73,South Korea,vs,Canada,-> Canada,Low
+M74,Brazil,vs,Japan,-> Brazil,Med
+M75,Ecuador,vs,Czech Republic,-> Ecuador,High
+M76,Netherlands,vs,Morocco,-> Netherlands,Med
+M77,Germany,vs,Norway,-> Germany,Low
+M78,France,vs,United States,-> France,High
+M79,Mexico,vs,Scotland,-> Mexico,Med
+M80,England,vs,Ivory Coast,-> England,High
+M81,Belgium,vs,Senegal,-> Belgium,Low
+M82,Turkey,vs,Sweden,-> Turkey,High
+M83,Spain,vs,Austria,-> Spain,High
+M84,Colombia,vs,Croatia,-> Colombia,Med
+M85,Switzerland,vs,Egypt,-> Switzerland,High
+M86,Paraguay,vs,Iran,-> Paraguay,Med
+M87,Argentina,vs,Uruguay,-> Argentina,High
+M88,Portugal,vs,Panama,-> Portugal,High
+
+== ROUND OF 16 winners (8) ==
+M89,Brazil,vs,Germany,-> Brazil,Low
+M90,Canada,vs,Ecuador,-> Ecuador,High
+M91,Netherlands,vs,France,-> France,High
+M92,Mexico,vs,England,-> England,High
+M93,Spain,vs,Colombia,-> Spain,High
+M94,Belgium,vs,Turkey,-> Turkey,Low
+M95,Paraguay,vs,Portugal,-> Portugal,High
+M96,Switzerland,vs,Argentina,-> Argentina,High
+
+== QUARTERFINALS winners (4) ==
+M97,Brazil,vs,Ecuador,-> Ecuador,Low
+M98,Spain,vs,Turkey,-> Spain,High
+M99,France,vs,England,-> England,Low
+M100,Portugal,vs,Argentina,-> Argentina,Med
+
+== SEMIFINALS winners (2 = finalists) ==
+M101,Ecuador,vs,Spain,-> Spain,High
+M102,England,vs,Argentina,-> England,Low
+
+== FINAL ==,Spain,vs,England,-> England
+== CHAMPION (30 pts) ==,England

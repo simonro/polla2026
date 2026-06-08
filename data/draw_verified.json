@@ -1,0 +1,45 @@
+{
+  "_meta": {
+    "tournament": "2026 FIFA World Cup",
+    "dates": "2026-06-11 to 2026-07-19",
+    "format": "48 teams, 12 groups of 4, top 2 + 8 best 3rd-place -> Round of 32",
+    "draw_held": "2025-12-05, Kennedy Center, Washington DC",
+    "verified": "Read verbatim from en.wikipedia.org/wiki/2026_FIFA_World_Cup_draw (page rev dated 2026, post-playoffs resolved). Cross-checked vs Opta/theanalyst groups preview. FIFA-page JSON extraction was hallucinated and DISCARDED.",
+    "fifa_ranking_date": "2025-11-19 (parenthetical ranks below are from the draw seeding)",
+    "host_slots": {"A1": "Mexico", "B1": "Canada", "D1": "United States"}
+  },
+  "groups": {
+    "A": ["Mexico", "South Africa", "South Korea", "Czech Republic"],
+    "B": ["Canada", "Bosnia and Herzegovina", "Qatar", "Switzerland"],
+    "C": ["Brazil", "Morocco", "Haiti", "Scotland"],
+    "D": ["United States", "Paraguay", "Australia", "Turkey"],
+    "E": ["Germany", "Curaçao", "Ivory Coast", "Ecuador"],
+    "F": ["Netherlands", "Japan", "Sweden", "Tunisia"],
+    "G": ["Belgium", "Egypt", "Iran", "New Zealand"],
+    "H": ["Spain", "Cape Verde", "Saudi Arabia", "Uruguay"],
+    "I": ["France", "Senegal", "Iraq", "Norway"],
+    "J": ["Argentina", "Algeria", "Austria", "Jordan"],
+    "K": ["Portugal", "DR Congo", "Uzbekistan", "Colombia"],
+    "L": ["England", "Croatia", "Ghana", "Panama"]
+  },
+  "fifa_rank": {
+    "Spain": 1, "Argentina": 2, "France": 3, "England": 4, "Brazil": 5,
+    "Portugal": 6, "Netherlands": 7, "Belgium": 8, "Germany": 9, "Croatia": 10,
+    "Morocco": 11, "Colombia": 13, "United States": 14, "Mexico": 15, "Uruguay": 16,
+    "Switzerland": 17, "Japan": 18, "Senegal": 19, "Iran": 20, "South Korea": 22,
+    "Ecuador": 23, "Austria": 24, "Australia": 26, "Canada": 27, "Norway": 29,
+    "Panama": 30, "Egypt": 34, "Algeria": 35, "Scotland": 36, "Paraguay": 39,
+    "Tunisia": 40, "Ivory Coast": 42, "Uzbekistan": 50, "Qatar": 51,
+    "Saudi Arabia": 60, "South Africa": 61, "Jordan": 66, "Cape Verde": 68,
+    "Ghana": 72, "Curaçao": 82, "Haiti": 84, "New Zealand": 86
+  },
+  "playoff_derived": {
+    "Czech Republic": "UEFA Path D", "Bosnia and Herzegovina": "UEFA Path A",
+    "Turkey": "UEFA Path C", "Sweden": "UEFA Path B",
+    "Iraq": "Inter-confederation Path 2", "DR Congo": "Inter-confederation Path 1"
+  },
+  "champion_odds_pct_opta_approx": {
+    "Spain": 25, "Argentina": 22, "France": 20, "England": 18, "Germany": 15,
+    "_note": "approximate/LLM-extracted from Opta preview; replace with real de-vigged betting odds before modeling"
+  }
+}

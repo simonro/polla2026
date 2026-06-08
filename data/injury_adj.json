@@ -1,0 +1,31 @@
+{
+  "_meta": "Manual Elo-point adjustments for confirmed/likely absences, from ESPN injury tracker (2026-06-06, read as text). Conservative; the betting market already prices most of this, so these mainly sharpen the match-level Elo engine (which is results-only) and group-advancement calls. Each delta documented below.",
+  "_reasons": {
+    "Brazil": "Rodrygo (ACL) + Estevao (hamstring) + Militao out, Neymar doubtful/misses opener — wings gutted",
+    "Argentina": "Cristian Romero (MCL, key CB) + Molina out; Messi minor",
+    "Netherlands": "Xavi Simons (ACL) + de Ligt (back) + Timber (doubt) + Schouten — defense hit",
+    "Japan": "Mitoma + Minamino both out — top creators gone (Group F)",
+    "Uruguay": "Jose Gimenez severe ankle — defense",
+    "Australia": "Miller + O'Neill + others — multiple starters (Group D)",
+    "Ghana": "Kudus doubtful (Group L)",
+    "Canada": "Davies doubtful (host, Group B)",
+    "Germany": "Gnabry + Karl + Ter Stegen out, Musiala back — net modest",
+    "Spain": "Fermin out, Merino doubt; Yamal expected fit — minor",
+    "Scotland": "Gilmour out (Group C)",
+    "France": "Ekitike (depth) out; core intact — negligible",
+    "England": "Livramento (depth) out; core intact — negligible"
+  },
+  "Brazil": -65,
+  "Argentina": -25,
+  "Netherlands": -35,
+  "Japan": -35,
+  "Uruguay": -20,
+  "Australia": -25,
+  "Ghana": -20,
+  "Canada": -15,
+  "Germany": -12,
+  "Spain": -8,
+  "Scotland": -15,
+  "France": -4,
+  "England": -4
+}

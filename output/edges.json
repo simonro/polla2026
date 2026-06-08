@@ -1,0 +1,122 @@
+{
+ "field_leverage": [
+  {
+   "team": "Spain",
+   "champ": 20.4,
+   "field": 7.8,
+   "leverage": 2.6
+  },
+  {
+   "team": "France",
+   "champ": 15.2,
+   "field": 7.8,
+   "leverage": 1.94
+  },
+  {
+   "team": "England",
+   "champ": 9.5,
+   "field": 6.1,
+   "leverage": 1.55
+  },
+  {
+   "team": "Portugal",
+   "champ": 7.8,
+   "field": 5.2,
+   "leverage": 1.5
+  },
+  {
+   "team": "Colombia",
+   "champ": 5.2,
+   "field": 6.1,
+   "leverage": 0.86
+  },
+  {
+   "team": "Argentina",
+   "champ": 11.7,
+   "field": 13.9,
+   "leverage": 0.84
+  }
+ ],
+ "fades": [
+  {
+   "team": "United States",
+   "champ": 0.0,
+   "field": 3.5,
+   "leverage": 0.01
+  },
+  {
+   "team": "Brazil",
+   "champ": 2.7,
+   "field": 13.0,
+   "leverage": 0.21
+  },
+  {
+   "team": "Mexico",
+   "champ": 1.5,
+   "field": 5.2,
+   "leverage": 0.29
+  },
+  {
+   "team": "Uruguay",
+   "champ": 1.2,
+   "field": 3.5,
+   "leverage": 0.35
+  },
+  {
+   "team": "Germany",
+   "champ": 3.2,
+   "field": 4.3,
+   "leverage": 0.74
+  }
+ ],
+ "model_market_gaps": [
+  {
+   "team": "Spain",
+   "sim": 27.6,
+   "market": 16.5,
+   "gap": 11.1
+  },
+  {
+   "team": "Argentina",
+   "sim": 16.2,
+   "market": 9.2,
+   "gap": 7.0
+  },
+  {
+   "team": "Portugal",
+   "sim": 4.9,
+   "market": 9.4,
+   "gap": -4.5
+  },
+  {
+   "team": "France",
+   "sim": 12.8,
+   "market": 16.5,
+   "gap": -3.7
+  },
+  {
+   "team": "England",
+   "sim": 8.1,
+   "market": 10.2,
+   "gap": -2.1
+  },
+  {
+   "team": "Colombia",
+   "sim": 4.5,
+   "market": 5.6,
+   "gap": -1.1
+  },
+  {
+   "team": "Ecuador",
+   "sim": 3.5,
+   "market": 4.4,
+   "gap": -0.9
+  },
+  {
+   "team": "Germany",
+   "sim": 2.8,
+   "market": 3.5,
+   "gap": -0.7
+  }
+ ]
+}

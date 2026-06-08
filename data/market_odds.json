@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "source": "Kalshi + Polymarket via squawka.com tracker, read from page text (NOT LLM-extracted)",
+    "as_of": "2026-06-05 to 2026-06-07 (page modified 2026-06-07T22:31Z), ~4 days pre-kickoff",
+    "note": "Champion implied probabilities. Market is unusually FLAT at top: Spain/France co-favorites, England clear 3rd, then a tight cluster. Diverges from Opta (which is more concentrated and rates Argentina/Germany higher, Portugal lower)."
+  },
+  "kalshi_champion_pct": {
+    "Spain": 16.5, "France": 16.5, "England": 10.2, "Portugal": 9.4, "Argentina": 9.2
+  },
+  "polymarket_champion_cents": {
+    "France": 17, "Spain": 16, "England": 11
+  },
+  "opta_champion_pct_approx": {
+    "Spain": 25, "Argentina": 22, "France": 20, "England": 18, "Germany": 15
+  },
+  "_modeling_note": "Use Elo as primary match-strength anchor. Use these champion probs to (a) calibrate sim top-end and (b) build the FIELD model (rival pick distribution). Field over-weights big names vs pure market; blend Opta+market+name-bias for field-share."
+}

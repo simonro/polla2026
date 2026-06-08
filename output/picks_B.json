@@ -1,0 +1,1431 @@
+{
+ "entry": "B",
+ "standings": {
+  "A": [
+   "Mexico",
+   "South Korea",
+   "Czech Republic",
+   "South Africa"
+  ],
+  "B": [
+   "Switzerland",
+   "Canada",
+   "Bosnia and Herzegovina",
+   "Qatar"
+  ],
+  "C": [
+   "Brazil",
+   "Morocco",
+   "Scotland",
+   "Haiti"
+  ],
+  "D": [
+   "Turkey",
+   "Paraguay",
+   "United States",
+   "Australia"
+  ],
+  "E": [
+   "Ecuador",
+   "Germany",
+   "Ivory Coast",
+   "Curaçao"
+  ],
+  "F": [
+   "Netherlands",
+   "Japan",
+   "Sweden",
+   "Tunisia"
+  ],
+  "G": [
+   "Belgium",
+   "Iran",
+   "Egypt",
+   "New Zealand"
+  ],
+  "H": [
+   "Spain",
+   "Uruguay",
+   "Cape Verde",
+   "Saudi Arabia"
+  ],
+  "I": [
+   "France",
+   "Norway",
+   "Senegal",
+   "Iraq"
+  ],
+  "J": [
+   "Argentina",
+   "Austria",
+   "Algeria",
+   "Jordan"
+  ],
+  "K": [
+   "Portugal",
+   "Colombia",
+   "Uzbekistan",
+   "DR Congo"
+  ],
+  "L": [
+   "England",
+   "Croatia",
+   "Panama",
+   "Ghana"
+  ]
+ },
+ "best8_thirds": [
+  "Senegal",
+  "Scotland",
+  "Czech Republic",
+  "United States",
+  "Egypt",
+  "Ivory Coast",
+  "Panama",
+  "Sweden"
+ ],
+ "bracket": {
+  "round32": [
+   {
+    "m": 73,
+    "home": "South Korea",
+    "away": "Canada",
+    "pick": "Canada",
+    "conf": "Low",
+    "p": 0.52
+   },
+   {
+    "m": 74,
+    "home": "Brazil",
+    "away": "Japan",
+    "pick": "Brazil",
+    "conf": "Med",
+    "p": 0.573
+   },
+   {
+    "m": 75,
+    "home": "Ecuador",
+    "away": "Czech Republic",
+    "pick": "Ecuador",
+    "conf": "High",
+    "p": 0.746
+   },
+   {
+    "m": 76,
+    "home": "Netherlands",
+    "away": "Morocco",
+    "pick": "Netherlands",
+    "conf": "Med",
+    "p": 0.612
+   },
+   {
+    "m": 77,
+    "home": "Germany",
+    "away": "Norway",
+    "pick": "Germany",
+    "conf": "Low",
+    "p": 0.504
+   },
+   {
+    "m": 78,
+    "home": "France",
+    "away": "United States",
+    "pick": "France",
+    "conf": "High",
+    "p": 0.877
+   },
+   {
+    "m": 79,
+    "home": "Mexico",
+    "away": "Scotland",
+    "pick": "Mexico",
+    "conf": "Med",
+    "p": 0.642
+   },
+   {
+    "m": 80,
+    "home": "England",
+    "away": "Ivory Coast",
+    "pick": "England",
+    "conf": "High",
+    "p": 0.869
+   },
+   {
+    "m": 81,
+    "home": "Belgium",
+    "away": "Senegal",
+    "pick": "Belgium",
+    "conf": "Low",
+    "p": 0.535
+   },
+   {
+    "m": 82,
+    "home": "Turkey",
+    "away": "Sweden",
+    "pick": "Turkey",
+    "conf": "High",
+    "p": 0.75
+   },
+   {
+    "m": 83,
+    "home": "Spain",
+    "away": "Austria",
+    "pick": "Spain",
+    "conf": "High",
+    "p": 0.865
+   },
+   {
+    "m": 84,
+    "home": "Colombia",
+    "away": "Croatia",
+    "pick": "Colombia",
+    "conf": "Med",
+    "p": 0.592
+   },
+   {
+    "m": 85,
+    "home": "Switzerland",
+    "away": "Egypt",
+    "pick": "Switzerland",
+    "conf": "High",
+    "p": 0.746
+   },
+   {
+    "m": 86,
+    "home": "Paraguay",
+    "away": "Iran",
+    "pick": "Paraguay",
+    "conf": "Med",
+    "p": 0.581
+   },
+   {
+    "m": 87,
+    "home": "Argentina",
+    "away": "Uruguay",
+    "pick": "Argentina",
+    "conf": "High",
+    "p": 0.77
+   },
+   {
+    "m": 88,
+    "home": "Portugal",
+    "away": "Panama",
+    "pick": "Portugal",
+    "conf": "High",
+    "p": 0.81
+   }
+  ],
+  "r16": [
+   {
+    "m": 89,
+    "a": "Brazil",
+    "b": "Germany",
+    "pick": "Brazil",
+    "conf": "Low",
+    "p": 0.508
+   },
+   {
+    "m": 90,
+    "a": "Canada",
+    "b": "Ecuador",
+    "pick": "Ecuador",
+    "conf": "High",
+    "p": 0.708
+   },
+   {
+    "m": 91,
+    "a": "Netherlands",
+    "b": "France",
+    "pick": "France",
+    "conf": "High",
+    "p": 0.692
+   },
+   {
+    "m": 92,
+    "a": "Mexico",
+    "b": "England",
+    "pick": "England",
+    "conf": "High",
+    "p": 0.684
+   },
+   {
+    "m": 93,
+    "a": "Spain",
+    "b": "Colombia",
+    "pick": "Spain",
+    "conf": "High",
+    "p": 0.717
+   },
+   {
+    "m": 94,
+    "a": "Belgium",
+    "b": "Turkey",
+    "pick": "Turkey",
+    "conf": "Low",
+    "p": 0.524
+   },
+   {
+    "m": 95,
+    "a": "Paraguay",
+    "b": "Portugal",
+    "pick": "Portugal",
+    "conf": "High",
+    "p": 0.697
+   },
+   {
+    "m": 96,
+    "a": "Switzerland",
+    "b": "Argentina",
+    "pick": "Argentina",
+    "conf": "High",
+    "p": 0.749
+   }
+  ],
+  "qf": [
+   {
+    "m": 97,
+    "a": "Brazil",
+    "b": "Ecuador",
+    "pick": "Ecuador",
+    "conf": "Low",
+    "p": 0.512
+   },
+   {
+    "m": 98,
+    "a": "Spain",
+    "b": "Turkey",
+    "pick": "Spain",
+    "conf": "High",
+    "p": 0.79
+   },
+   {
+    "m": 99,
+    "a": "France",
+    "b": "England",
+    "pick": "France",
+    "conf": "Med",
+    "p": 0.555
+   },
+   {
+    "m": 100,
+    "a": "Portugal",
+    "b": "Argentina",
+    "pick": "Portugal",
+    "conf": "Low",
+    "p": 0.365
+   }
+  ],
+  "sf": [
+   {
+    "m": 101,
+    "a": "Ecuador",
+    "b": "Spain",
+    "pick": "Spain",
+    "conf": "High",
+    "p": 0.764
+   },
+   {
+    "m": 102,
+    "a": "France",
+    "b": "Portugal",
+    "pick": "France",
+    "conf": "Med",
+    "p": 0.595
+   }
+  ],
+  "final": {
+   "a": "Spain",
+   "b": "France",
+   "pick": "France",
+   "conf": "Low",
+   "p": 0.382
+  },
+  "champion": "France"
+ },
+ "group_picks": [
+  {
+   "group": "A",
+   "home": "Mexico",
+   "away": "South Africa",
+   "score": [
+    2,
+    0
+   ],
+   "pH": 0.832,
+   "pD": 0.135,
+   "pA": 0.033,
+   "conf": "High",
+   "fav": "Mexico",
+   "note": "Mexico favored (83% vs 3%); modal 2-0"
+  },
+  {
+   "group": "A",
+   "home": "South Korea",
+   "away": "Czech Republic",
+   "score": [
+    1,
+    1
+   ],
+   "pH": 0.384,
+   "pD": 0.27,
+   "pA": 0.346,
+   "conf": "Low",
+   "fav": "South Korea",
+   "note": "South Korea favored (38% vs 35%); modal 1-1"
+  },
+  {
+   "group": "B",
+   "home": "Canada",
+   "away": "Bosnia and Herzegovina",
+   "score": [
+    2,
+    0
+   ],
+   "pH": 0.667,
+   "pD": 0.212,
+   "pA": 0.121,
+   "conf": "High",
+   "fav": "Canada",
+   "note": "Canada favored (67% vs 12%); modal 2-0"
+  },
+  {
+   "group": "D",
+   "home": "United States",
+   "away": "Paraguay",
+   "score": [
+    1,
+    1
+   ],
+   "pH": 0.35,
+   "pD": 0.27,
+   "pA": 0.38,
+   "conf": "Low",
+   "fav": "Paraguay",
+   "note": "Paraguay favored (38% vs 35%); modal 1-1"
+  },
+  {
+   "group": "B",
+   "home": "Qatar",
+   "away": "Switzerland",
+   "score": [
+    0,
+    2
+   ],
+   "pH": 0.023,
+   "pD": 0.12,
+   "pA": 0.857,
+   "conf": "High",
+   "fav": "Switzerland",
+   "note": "Switzerland favored (86% vs 2%); modal 0-2"
+  },
+  {
+   "group": "C",
+   "home": "Brazil",
+   "away": "Morocco",
+   "score": [
+    1,
+    1
+   ],
+   "pH": 0.478,
+   "pD": 0.261,
+   "pA": 0.26,
+   "conf": "Med",
+   "fav": "Brazil",
+   "note": "Brazil favored (48% vs 26%); modal 1-1"
+  },
+  {
+   "group": "C",
+   "home": "Haiti",
+   "away": "Scotland",
+   "score": [
+    0,
+    1
+   ],
+   "pH": 0.158,
+   "pD": 0.231,
+   "pA": 0.61,
+   "conf": "High",
+   "fav": "Scotland",
+   "note": "Scotland favored (61% vs 16%); modal 0-1"
+  },
+  {
+   "group": "D",
+   "home": "Australia",
+   "away": "Turkey",
+   "score": [
+    1,
+    1
+   ],
+   "pH": 0.208,
+   "pD": 0.249,
+   "pA": 0.543,
+   "conf": "Med",
+   "fav": "Turkey",
+   "note": "Turkey favored (54% vs 21%); modal 1-1"
+  },
+  {
+   "group": "E",
+   "home": "Germany",
+   "away": "Curaçao",
+   "score": [
+    2,
+    0
+   ],
+   "pH": 0.87,
+   "pD": 0.112,
+   "pA": 0.018,
+   "conf": "High",
+   "fav": "Germany",
+   "note": "Germany favored (87% vs 2%); modal 2-0"
+  },
+  {
+   "group": "E",
+   "home": "Ivory Coast",
+   "away": "Ecuador",
+   "score": [
+    0,
+    1
+   ],
+   "pH": 0.143,
+   "pD": 0.224,
+   "pA": 0.634,
+   "conf": "High",
+   "fav": "Ecuador",
+   "note": "Ecuador favored (63% vs 14%); modal 0-1"
+  },
+  {
+   "group": "F",
+   "home": "Netherlands",
+   "away": "Japan",
+   "score": [
+    1,
+    1
+   ],
+   "pH": 0.406,
+   "pD": 0.269,
+   "pA": 0.325,
+   "conf": "Low",
+   "fav": "Netherlands",
+   "note": "Netherlands favored (41% vs 32%); modal 1-1"
+  },
+  {
+   "group": "F",
+   "home": "Sweden",
+   "away": "Tunisia",
+   "score": [
+    1,
+    1
+   ],
+   "pH": 0.458,
+   "pD": 0.264,
+   "pA": 0.278,
+   "conf": "Med",
+   "fav": "Sweden",
+   "note": "Sweden favored (46% vs 28%); modal 1-1"
+  },
+  {
+   "group": "G",
+   "home": "Belgium",
+   "away": "Egypt",
+   "score": [
+    1,
+    0
+   ],
+   "pH": 0.586,
+   "pD": 0.238,
+   "pA": 0.176,
+   "conf": "High",
+   "fav": "Belgium",
+   "note": "Belgium favored (59% vs 18%); modal 1-0"
+  },
+  {
+   "group": "G",
+   "home": "Iran",
+   "away": "New Zealand",
+   "score": [
+    1,
+    0
+   ],
+   "pH": 0.6,
+   "pD": 0.234,
+   "pA": 0.165,
+   "conf": "High",
+   "fav": "Iran",
+   "note": "Iran favored (60% vs 16%); modal 1-0"
+  },
+  {
+   "group": "H",
+   "home": "Spain",
+   "away": "Cape Verde",
+   "score": [
+    2,
+    0
+   ],
+   "pH": 0.906,
+   "pD": 0.086,
+   "pA": 0.008,
+   "conf": "High",
+   "fav": "Spain",
+   "note": "Spain favored (91% vs 1%); modal 2-0"
+  },
+  {
+   "group": "H",
+   "home": "Saudi Arabia",
+   "away": "Uruguay",
+   "score": [
+    0,
+    2
+   ],
+   "pH": 0.1,
+   "pD": 0.199,
+   "pA": 0.701,
+   "conf": "High",
+   "fav": "Uruguay",
+   "note": "Uruguay favored (70% vs 10%); modal 0-2"
+  },
+  {
+   "group": "I",
+   "home": "France",
+   "away": "Senegal",
+   "score": [
+    1,
+    0
+   ],
+   "pH": 0.579,
+   "pD": 0.24,
+   "pA": 0.181,
+   "conf": "High",
+   "fav": "France",
+   "note": "France favored (58% vs 18%); modal 1-0"
+  },
+  {
+   "group": "I",
+   "home": "Iraq",
+   "away": "Norway",
+   "score": [
+    0,
+    2
+   ],
+   "pH": 0.102,
+   "pD": 0.2,
+   "pA": 0.697,
+   "conf": "High",
+   "fav": "Norway",
+   "note": "Norway favored (70% vs 10%); modal 0-2"
+  },
+  {
+   "group": "J",
+   "home": "Argentina",
+   "away": "Algeria",
+   "score": [
+    2,
+    0
+   ],
+   "pH": 0.728,
+   "pD": 0.187,
+   "pA": 0.084,
+   "conf": "High",
+   "fav": "Argentina",
+   "note": "Argentina favored (73% vs 8%); modal 2-0"
+  },
+  {
+   "group": "J",
+   "home": "Austria",
+   "away": "Jordan",
+   "score": [
+    1,
+    1
+   ],
+   "pH": 0.527,
+   "pD": 0.253,
+   "pA": 0.22,
+   "conf": "Med",
+   "fav": "Austria",
+   "note": "Austria favored (53% vs 22%); modal 1-1"
+  },
+  {
+   "group": "K",
+   "home": "Portugal",
+   "away": "DR Congo",
+   "score": [
+    2,
+    0
+   ],
+   "pH": 0.724,
+   "pD": 0.189,
+   "pA": 0.087,
+   "conf": "High",
+   "fav": "Portugal",
+   "note": "Portugal favored (72% vs 9%); modal 2-0"
+  },
+  {
+   "group": "K",
+   "home": "Uzbekistan",
+   "away": "Colombia",
+   "score": [
+    0,
+    1
+   ],
+   "pH": 0.129,
+   "pD": 0.217,
+   "pA": 0.654,
+   "conf": "High",
+   "fav": "Colombia",
+   "note": "Colombia favored (65% vs 13%); modal 0-1"
+  },
+  {
+   "group": "L",
+   "home": "England",
+   "away": "Croatia",
+   "score": [
+    1,
+    1
+   ],
+   "pH": 0.486,
+   "pD": 0.26,
+   "pA": 0.254,
+   "conf": "Med",
+   "fav": "England",
+   "note": "England favored (49% vs 25%); modal 1-1"
+  },
+  {
+   "group": "L",
+   "home": "Ghana",
+   "away": "Panama",
+   "score": [
+    0,
+    1
+   ],
+   "pH": 0.143,
+   "pD": 0.224,
+   "pA": 0.634,
+   "conf": "High",
+   "fav": "Panama",
+   "note": "Panama favored (63% vs 14%); modal 0-1"
+  },
+  {
+   "group": "A",
+   "home": "Czech Republic",
+   "away": "South Africa",
+   "score": [
+    1,
+    0
+   ],
+   "pH": 0.603,
+   "pD": 0.233,
+   "pA": 0.164,
+   "conf": "High",
+   "fav": "Czech Republic",
+   "note": "Czech Republic favored (60% vs 16%); modal 1-0"
+  },
+  {
+   "group": "A",
+   "home": "Mexico",
+   "away": "South Korea",
+   "score": [
+    1,
+    0
+   ],
+   "pH": 0.6,
+   "pD": 0.234,
+   "pA": 0.166,
+   "conf": "High",
+   "fav": "Mexico",
+   "note": "Mexico favored (60% vs 17%); modal 1-0"
+  },
+  {
+   "group": "B",
+   "home": "Switzerland",
+   "away": "Bosnia and Herzegovina",
+   "score": [
+    2,
+    0
+   ],
+   "pH": 0.694,
+   "pD": 0.202,
+   "pA": 0.104,
+   "conf": "High",
+   "fav": "Switzerland",
+   "note": "Switzerland favored (69% vs 10%); modal 2-0"
+  },
+  {
+   "group": "B",
+   "home": "Canada",
+   "away": "Qatar",
+   "score": [
+    2,
+    0
+   ],
+   "pH": 0.837,
+   "pD": 0.132,
+   "pA": 0.031,
+   "conf": "High",
+   "fav": "Canada",
+   "note": "Canada favored (84% vs 3%); modal 2-0"
+  },
+  {
+   "group": "C",
+   "home": "Scotland",
+   "away": "Morocco",
+   "score": [
+    1,
+    1
+   ],
+   "pH": 0.305,
+   "pD": 0.267,
+   "pA": 0.428,
+   "conf": "Med",
+   "fav": "Morocco",
+   "note": "Morocco favored (43% vs 30%); modal 1-1"
+  },
+  {
+   "group": "C",
+   "home": "Brazil",
+   "away": "Haiti",
+   "score": [
+    2,
+    0
+   ],
+   "pH": 0.776,
+   "pD": 0.165,
+   "pA": 0.059,
+   "conf": "High",
+   "fav": "Brazil",
+   "note": "Brazil favored (78% vs 6%); modal 2-0"
+  },
+  {
+   "group": "D",
+   "home": "United States",
+   "away": "Australia",
+   "score": [
+    1,
+    1
+   ],
+   "pH": 0.439,
+   "pD": 0.266,
+   "pA": 0.295,
+   "conf": "Med",
+   "fav": "United States",
+   "note": "United States favored (44% vs 30%); modal 1-1"
+  },
+  {
+   "group": "D",
+   "home": "Turkey",
+   "away": "Paraguay",
+   "score": [
+    1,
+    1
+   ],
+   "pH": 0.451,
+   "pD": 0.265,
+   "pA": 0.284,
+   "conf": "Med",
+   "fav": "Turkey",
+   "note": "Turkey favored (45% vs 28%); modal 1-1"
+  },
+  {
+   "group": "E",
+   "home": "Germany",
+   "away": "Ivory Coast",
+   "score": [
+    1,
+    0
+   ],
+   "pH": 0.617,
+   "pD": 0.229,
+   "pA": 0.154,
+   "conf": "High",
+   "fav": "Germany",
+   "note": "Germany favored (62% vs 15%); modal 1-0"
+  },
+  {
+   "group": "E",
+   "home": "Ecuador",
+   "away": "Curaçao",
+   "score": [
+    2,
+    0
+   ],
+   "pH": 0.881,
+   "pD": 0.104,
+   "pA": 0.014,
+   "conf": "High",
+   "fav": "Ecuador",
+   "note": "Ecuador favored (88% vs 1%); modal 2-0"
+  },
+  {
+   "group": "F",
+   "home": "Netherlands",
+   "away": "Sweden",
+   "score": [
+    1,
+    0
+   ],
+   "pH": 0.586,
+   "pD": 0.238,
+   "pA": 0.176,
+   "conf": "High",
+   "fav": "Netherlands",
+   "note": "Netherlands favored (59% vs 18%); modal 1-0"
+  },
+  {
+   "group": "F",
+   "home": "Tunisia",
+   "away": "Japan",
+   "score": [
+    0,
+    1
+   ],
+   "pH": 0.14,
+   "pD": 0.223,
+   "pA": 0.637,
+   "conf": "High",
+   "fav": "Japan",
+   "note": "Japan favored (64% vs 14%); modal 0-1"
+  },
+  {
+   "group": "G",
+   "home": "Belgium",
+   "away": "Iran",
+   "score": [
+    1,
+    1
+   ],
+   "pH": 0.5,
+   "pD": 0.258,
+   "pA": 0.242,
+   "conf": "Med",
+   "fav": "Belgium",
+   "note": "Belgium favored (50% vs 24%); modal 1-1"
+  },
+  {
+   "group": "G",
+   "home": "New Zealand",
+   "away": "Egypt",
+   "score": [
+    1,
+    1
+   ],
+   "pH": 0.23,
+   "pD": 0.255,
+   "pA": 0.515,
+   "conf": "Med",
+   "fav": "Egypt",
+   "note": "Egypt favored (52% vs 23%); modal 1-1"
+  },
+  {
+   "group": "H",
+   "home": "Spain",
+   "away": "Saudi Arabia",
+   "score": [
+    2,
+    0
+   ],
+   "pH": 0.908,
+   "pD": 0.084,
+   "pA": 0.008,
+   "conf": "High",
+   "fav": "Spain",
+   "note": "Spain favored (91% vs 1%); modal 2-0"
+  },
+  {
+   "group": "H",
+   "home": "Uruguay",
+   "away": "Cape Verde",
+   "score": [
+    2,
+    0
+   ],
+   "pH": 0.692,
+   "pD": 0.203,
+   "pA": 0.106,
+   "conf": "High",
+   "fav": "Uruguay",
+   "note": "Uruguay favored (69% vs 11%); modal 2-0"
+  },
+  {
+   "group": "I",
+   "home": "France",
+   "away": "Iraq",
+   "score": [
+    2,
+    0
+   ],
+   "pH": 0.832,
+   "pD": 0.135,
+   "pA": 0.033,
+   "conf": "High",
+   "fav": "France",
+   "note": "France favored (83% vs 3%); modal 2-0"
+  },
+  {
+   "group": "I",
+   "home": "Norway",
+   "away": "Senegal",
+   "score": [
+    1,
+    1
+   ],
+   "pH": 0.42,
+   "pD": 0.268,
+   "pA": 0.312,
+   "conf": "Med",
+   "fav": "Norway",
+   "note": "Norway favored (42% vs 31%); modal 1-1"
+  },
+  {
+   "group": "J",
+   "home": "Argentina",
+   "away": "Austria",
+   "score": [
+    1,
+    0
+   ],
+   "pH": 0.654,
+   "pD": 0.217,
+   "pA": 0.129,
+   "conf": "High",
+   "fav": "Argentina",
+   "note": "Argentina favored (65% vs 13%); modal 1-0"
+  },
+  {
+   "group": "J",
+   "home": "Jordan",
+   "away": "Algeria",
+   "score": [
+    1,
+    1
+   ],
+   "pH": 0.287,
+   "pD": 0.265,
+   "pA": 0.448,
+   "conf": "Med",
+   "fav": "Algeria",
+   "note": "Algeria favored (45% vs 29%); modal 1-1"
+  },
+  {
+   "group": "K",
+   "home": "Portugal",
+   "away": "Uzbekistan",
+   "score": [
+    2,
+    0
+   ],
+   "pH": 0.664,
+   "pD": 0.213,
+   "pA": 0.123,
+   "conf": "High",
+   "fav": "Portugal",
+   "note": "Portugal favored (66% vs 12%); modal 2-0"
+  },
+  {
+   "group": "K",
+   "home": "Colombia",
+   "away": "DR Congo",
+   "score": [
+    2,
+    0
+   ],
+   "pH": 0.715,
+   "pD": 0.193,
+   "pA": 0.092,
+   "conf": "High",
+   "fav": "Colombia",
+   "note": "Colombia favored (72% vs 9%); modal 2-0"
+  },
+  {
+   "group": "L",
+   "home": "England",
+   "away": "Ghana",
+   "score": [
+    2,
+    0
+   ],
+   "pH": 0.897,
+   "pD": 0.093,
+   "pA": 0.009,
+   "conf": "High",
+   "fav": "England",
+   "note": "England favored (90% vs 1%); modal 2-0"
+  },
+  {
+   "group": "L",
+   "home": "Panama",
+   "away": "Croatia",
+   "score": [
+    0,
+    1
+   ],
+   "pH": 0.192,
+   "pD": 0.244,
+   "pA": 0.564,
+   "conf": "High",
+   "fav": "Croatia",
+   "note": "Croatia favored (56% vs 19%); modal 0-1"
+  },
+  {
+   "group": "A",
+   "home": "Mexico",
+   "away": "Czech Republic",
+   "score": [
+    1,
+    0
+   ],
+   "pH": 0.62,
+   "pD": 0.228,
+   "pA": 0.152,
+   "conf": "High",
+   "fav": "Mexico",
+   "note": "Mexico favored (62% vs 15%); modal 1-0"
+  },
+  {
+   "group": "A",
+   "home": "South Africa",
+   "away": "South Korea",
+   "score": [
+    0,
+    1
+   ],
+   "pH": 0.15,
+   "pD": 0.227,
+   "pA": 0.623,
+   "conf": "High",
+   "fav": "South Korea",
+   "note": "South Korea favored (62% vs 15%); modal 0-1"
+  },
+  {
+   "group": "B",
+   "home": "Canada",
+   "away": "Switzerland",
+   "score": [
+    1,
+    1
+   ],
+   "pH": 0.338,
+   "pD": 0.27,
+   "pA": 0.392,
+   "conf": "Low",
+   "fav": "Switzerland",
+   "note": "Switzerland favored (39% vs 34%); modal 1-1"
+  },
+  {
+   "group": "B",
+   "home": "Bosnia and Herzegovina",
+   "away": "Qatar",
+   "score": [
+    1,
+    1
+   ],
+   "pH": 0.56,
+   "pD": 0.245,
+   "pA": 0.195,
+   "conf": "High",
+   "fav": "Bosnia and Herzegovina",
+   "note": "Bosnia and Herzegovina favored (56% vs 20%); modal 1-1"
+  },
+  {
+   "group": "C",
+   "home": "Scotland",
+   "away": "Brazil",
+   "score": [
+    1,
+    1
+   ],
+   "pH": 0.208,
+   "pD": 0.249,
+   "pA": 0.543,
+   "conf": "Med",
+   "fav": "Brazil",
+   "note": "Brazil favored (54% vs 21%); modal 1-1"
+  },
+  {
+   "group": "C",
+   "home": "Morocco",
+   "away": "Haiti",
+   "score": [
+    2,
+    0
+   ],
+   "pH": 0.673,
+   "pD": 0.21,
+   "pA": 0.117,
+   "conf": "High",
+   "fav": "Morocco",
+   "note": "Morocco favored (67% vs 12%); modal 2-0"
+  },
+  {
+   "group": "D",
+   "home": "United States",
+   "away": "Turkey",
+   "score": [
+    1,
+    1
+   ],
+   "pH": 0.27,
+   "pD": 0.263,
+   "pA": 0.467,
+   "conf": "Med",
+   "fav": "Turkey",
+   "note": "Turkey favored (47% vs 27%); modal 1-1"
+  },
+  {
+   "group": "D",
+   "home": "Paraguay",
+   "away": "Australia",
+   "score": [
+    1,
+    1
+   ],
+   "pH": 0.455,
+   "pD": 0.265,
+   "pA": 0.281,
+   "conf": "Med",
+   "fav": "Paraguay",
+   "note": "Paraguay favored (46% vs 28%); modal 1-1"
+  },
+  {
+   "group": "E",
+   "home": "Curaçao",
+   "away": "Ivory Coast",
+   "score": [
+    0,
+    1
+   ],
+   "pH": 0.128,
+   "pD": 0.216,
+   "pA": 0.657,
+   "conf": "High",
+   "fav": "Ivory Coast",
+   "note": "Ivory Coast favored (66% vs 13%); modal 0-1"
+  },
+  {
+   "group": "E",
+   "home": "Ecuador",
+   "away": "Germany",
+   "score": [
+    1,
+    1
+   ],
+   "pH": 0.381,
+   "pD": 0.27,
+   "pA": 0.349,
+   "conf": "Low",
+   "fav": "Ecuador",
+   "note": "Ecuador favored (38% vs 35%); modal 1-1"
+  },
+  {
+   "group": "F",
+   "home": "Japan",
+   "away": "Sweden",
+   "score": [
+    1,
+    1
+   ],
+   "pH": 0.543,
+   "pD": 0.249,
+   "pA": 0.208,
+   "conf": "Med",
+   "fav": "Japan",
+   "note": "Japan favored (54% vs 21%); modal 1-1"
+  },
+  {
+   "group": "F",
+   "home": "Tunisia",
+   "away": "Netherlands",
+   "score": [
+    0,
+    2
+   ],
+   "pH": 0.114,
+   "pD": 0.208,
+   "pA": 0.678,
+   "conf": "High",
+   "fav": "Netherlands",
+   "note": "Netherlands favored (68% vs 11%); modal 0-2"
+  },
+  {
+   "group": "G",
+   "home": "Egypt",
+   "away": "Iran",
+   "score": [
+    1,
+    1
+   ],
+   "pH": 0.286,
+   "pD": 0.265,
+   "pA": 0.449,
+   "conf": "Med",
+   "fav": "Iran",
+   "note": "Iran favored (45% vs 29%); modal 1-1"
+  },
+  {
+   "group": "G",
+   "home": "New Zealand",
+   "away": "Belgium",
+   "score": [
+    0,
+    2
+   ],
+   "pH": 0.083,
+   "pD": 0.186,
+   "pA": 0.73,
+   "conf": "High",
+   "fav": "Belgium",
+   "note": "Belgium favored (73% vs 8%); modal 0-2"
+  },
+  {
+   "group": "H",
+   "home": "Cape Verde",
+   "away": "Saudi Arabia",
+   "score": [
+    1,
+    1
+   ],
+   "pH": 0.375,
+   "pD": 0.27,
+   "pA": 0.355,
+   "conf": "Low",
+   "fav": "Cape Verde",
+   "note": "Cape Verde favored (38% vs 36%); modal 1-1"
+  },
+  {
+   "group": "H",
+   "home": "Uruguay",
+   "away": "Spain",
+   "score": [
+    0,
+    2
+   ],
+   "pH": 0.118,
+   "pD": 0.21,
+   "pA": 0.672,
+   "conf": "High",
+   "fav": "Spain",
+   "note": "Spain favored (67% vs 12%); modal 0-2"
+  },
+  {
+   "group": "I",
+   "home": "Norway",
+   "away": "France",
+   "score": [
+    1,
+    1
+   ],
+   "pH": 0.224,
+   "pD": 0.253,
+   "pA": 0.523,
+   "conf": "Med",
+   "fav": "France",
+   "note": "France favored (52% vs 22%); modal 1-1"
+  },
+  {
+   "group": "I",
+   "home": "Senegal",
+   "away": "Iraq",
+   "score": [
+    1,
+    0
+   ],
+   "pH": 0.644,
+   "pD": 0.22,
+   "pA": 0.136,
+   "conf": "High",
+   "fav": "Senegal",
+   "note": "Senegal favored (64% vs 14%); modal 1-0"
+  },
+  {
+   "group": "J",
+   "home": "Algeria",
+   "away": "Austria",
+   "score": [
+    1,
+    1
+   ],
+   "pH": 0.292,
+   "pD": 0.266,
+   "pA": 0.442,
+   "conf": "Med",
+   "fav": "Austria",
+   "note": "Austria favored (44% vs 29%); modal 1-1"
+  },
+  {
+   "group": "J",
+   "home": "Jordan",
+   "away": "Argentina",
+   "score": [
+    0,
+    2
+   ],
+   "pH": 0.047,
+   "pD": 0.152,
+   "pA": 0.801,
+   "conf": "High",
+   "fav": "Argentina",
+   "note": "Argentina favored (80% vs 5%); modal 0-2"
+  },
+  {
+   "group": "K",
+   "home": "Colombia",
+   "away": "Portugal",
+   "score": [
+    1,
+    1
+   ],
+   "pH": 0.355,
+   "pD": 0.27,
+   "pA": 0.375,
+   "conf": "Low",
+   "fav": "Portugal",
+   "note": "Portugal favored (38% vs 36%); modal 1-1"
+  },
+  {
+   "group": "K",
+   "home": "DR Congo",
+   "away": "Uzbekistan",
+   "score": [
+    1,
+    1
+   ],
+   "pH": 0.305,
+   "pD": 0.267,
+   "pA": 0.428,
+   "conf": "Med",
+   "fav": "Uzbekistan",
+   "note": "Uzbekistan favored (43% vs 30%); modal 1-1"
+  },
+  {
+   "group": "L",
+   "home": "Panama",
+   "away": "England",
+   "score": [
+    0,
+    2
+   ],
+   "pH": 0.11,
+   "pD": 0.205,
+   "pA": 0.685,
+   "conf": "High",
+   "fav": "England",
+   "note": "England favored (68% vs 11%); modal 0-2"
+  },
+  {
+   "group": "L",
+   "home": "Croatia",
+   "away": "Ghana",
+   "score": [
+    2,
+    0
+   ],
+   "pH": 0.813,
+   "pD": 0.145,
+   "pA": 0.041,
+   "conf": "High",
+   "fav": "Croatia",
+   "note": "Croatia favored (81% vs 4%); modal 2-0"
+  }
+ ],
+ "force": {
+  "France": "CH",
+  "Portugal": "SF"
+ }
+}
