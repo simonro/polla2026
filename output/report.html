@@ -26,6 +26,18 @@ h1{font-size:26px;margin:0 0 4px} h2{font-size:18px;color:#58a6ff;border-bottom:
 .good{color:#27c08a;font-weight:600} .bad{color:#d65a5a;font-weight:600}
 .note{background:#e0a33a11;border:1px solid #e0a33a44;border-radius:8px;padding:10px 14px;color:#e0a33a;font-size:13px;margin:10px 0}
 .gsh{color:#58a6ff;font-size:15px;margin:18px 0 10px;border-top:1px solid #21262d;padding-top:12px}
+/* ---- guide ---- */
+.guide{background:#0d1117;border:1px solid #21262d;border-radius:12px;margin-bottom:14px}
+.glead{padding:14px 16px;color:#e6edf3;font-size:14px;border-bottom:1px solid #1b2027;background:#11161d;border-radius:12px 12px 0 0}
+.step{display:flex;gap:14px;padding:13px 16px;border-bottom:1px solid #1b2027}
+.step:last-child{border-bottom:none}
+.snum{flex:0 0 28px;height:28px;border-radius:50%;background:#1f6feb22;color:#58a6ff;border:1px solid #1f6feb55;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px}
+.sbody h4{margin:1px 0 4px;font-size:14.5px;color:#e6edf3}
+.sbody p{margin:0;color:#aeb6c0;font-size:13px;line-height:1.55}
+.sbody b{color:#e6edf3} .gk{color:#27c08a;font-weight:600} .gx{color:#d65a5a;font-weight:600}
+.callout{padding:13px 16px;border-bottom:1px solid #1b2027}
+.callout h4{margin:0 0 6px;font-size:14.5px;color:#e0a33a}
+.callout p{margin:0 0 4px;color:#aeb6c0;font-size:13px;line-height:1.55}
 /* ---- converging bracket tracker ---- */
 :root{--g:#3a6e2f}
 .tracker{display:flex;align-items:stretch;justify-content:center;background:#060a06;border:1px solid #1d3a1d;border-radius:12px;padding:18px 14px;overflow-x:auto;margin-bottom:14px}
@@ -52,6 +64,22 @@ h1{font-size:26px;margin:0 0 4px} h2{font-size:18px;color:#58a6ff;border-bottom:
 </div>
 
 <div class="note">⚑ Group-stage flags: <b>Group E</b> — Entries A/B edge Ecuador over Germany (CONMEBOL Elo inflation); <b>Entry C (3-source) fixes this — Germany 1st.</b> <b>Group D</b> — host USA may be under-rated vs Turkey in all three. Deep bracket is market-corrected. Note: the common-opponent (Massey) model rates France slightly <i>below</i> Elo and Germany <i>above</i> — so France's high rank rests on the betting market, not Massey.</div>
+
+<h2 id="guide">📖 How this works — a guide you can explain to anyone</h2>
+<div class="guide">
+  <div class="glead"><b>The goal isn't to predict games — it's to win a 415-person pool.</b> Being right isn't enough; you have to be right about things most people got <i>wrong</i>. So every team is judged two ways: how likely it is to win, and how many rivals also picked it.</div>
+  <div class="step"><div class="snum">1</div><div class="sbody"><h4>Rate every team — from 3 sources</h4><p><b>Elo</b> (a power rating updated after every match) + <b>common-opponent</b> strength (who-beat-whom across the whole results web) + the <b>betting market</b> (the sharpest public estimate). We blend all three. They agree ~95% of the time; the disagreements are where it gets interesting.</p></div></div>
+  <div class="step"><div class="snum">2</div><div class="sbody"><h4>Adjust for injuries</h4><p>We read the June 6 injury report and docked teams for missing stars. <b>Brazil</b> got hit hardest (Rodrygo and Estêvão out, Neymar doubtful).</p></div></div>
+  <div class="step"><div class="snum">3</div><div class="sbody"><h4>Predict each game</h4><p>From two teams' ratings we get each side's <b>expected goals</b>, then a probability for every possible score. Quirk: a favorite's most-likely <i>exact</i> score is often a draw or 1-0 — because low scores bunch up — even when they're clearly favored to win.</p></div></div>
+  <div class="step"><div class="snum">4</div><div class="sbody"><h4>Simulate the tournament 30,000 times</h4><p>Play all 104 games with those probabilities, over and over, on the real 2026 bracket. Count how often each team wins it all. That's each team's <b>win % (p)</b>.</p></div></div>
+  <div class="step"><div class="snum">5</div><div class="sbody"><h4>Model the field</h4><p>Estimate what the other 415 will pick. This pool runs out of <b>Miami / New York / Bogotá</b> — a Latino-heavy crowd — so Argentina, Brazil, Colombia and Mexico are heavily over-picked. That's each team's <b>field % (f)</b>.</p></div></div>
+  <div class="step"><div class="snum">6</div><div class="sbody"><h4>Pick for value, not fame</h4><p>The deciding number is <b>leverage = win % ÷ field %</b>. <span class="gk">Above 1 = undervalued</span> (more rivals would let you win it outright). <span class="gx">Below 1 = over-crowded</span> (you'd split the prize). This is what tells us to <b>fade Brazil</b>: great reputation, but injured, ~3% to win, yet ~13% of the field picks it → leverage 0.21.</p></div></div>
+  <div class="callout"><h4>Why three entries with three different champions</h4><p>We rank the strong, undervalued teams and put a <b>different winner on each ticket</b> — three shots at the 30-point champion instead of tripling down on one.</p>
+  <p><b>C → Spain:</b> highest win % <i>and</i> most undervalued (2.6×). The best single bet.<br>
+  <b>B → France:</b> second-best, a strong independent second shot.<br>
+  <b>A → England:</b> third — covers one more outcome.</p></div>
+  <div class="callout"><h4>What we deliberately ignore — and the honest limits</h4><p>Exact group scores are near-random for everyone (~10% hit rate), so they don't separate you — the pool is won <b>deep in the bracket</b> (semis, final, champion). No model reliably beats the market, so we lean on it. The field estimate is our best guess, not real data (picks stay hidden until June 10). Upsets happen — which is exactly why we spread across three entries.</p></div>
+</div>
 
 <h2>Knockout bracket</h2>
 <div class="tabs"><span class="tab active" id="tabA" onclick="sw('A')">Entry A — England champion (Euro value)</span>
