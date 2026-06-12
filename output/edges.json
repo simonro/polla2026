@@ -4,95 +4,95 @@
    "team": "Spain",
    "champ": 19.7,
    "field": 7.8,
-   "leverage": 2.52
+   "leverage": 2.51
   },
   {
    "team": "France",
-   "champ": 14.2,
+   "champ": 14.4,
    "field": 7.8,
-   "leverage": 1.82
+   "leverage": 1.84
   },
   {
    "team": "Portugal",
    "champ": 8.6,
    "field": 5.2,
-   "leverage": 1.65
+   "leverage": 1.64
   },
   {
    "team": "England",
-   "champ": 9.2,
+   "champ": 9.3,
    "field": 6.1,
-   "leverage": 1.52
+   "leverage": 1.53
   },
   {
    "team": "Colombia",
-   "champ": 6.8,
+   "champ": 6.4,
    "field": 6.1,
-   "leverage": 1.11
+   "leverage": 1.05
   },
   {
    "team": "Argentina",
-   "champ": 10.9,
+   "champ": 11.0,
    "field": 13.9,
-   "leverage": 0.78
+   "leverage": 0.79
   }
  ],
  "fades": [
   {
    "team": "United States",
-   "champ": 0.0,
+   "champ": 0.1,
    "field": 3.5,
-   "leverage": 0.01
+   "leverage": 0.02
   },
   {
    "team": "Mexico",
    "champ": 0.8,
    "field": 5.2,
-   "leverage": 0.16
+   "leverage": 0.14
   },
   {
    "team": "Brazil",
-   "champ": 3.4,
+   "champ": 3.6,
    "field": 13.0,
-   "leverage": 0.26
+   "leverage": 0.27
   },
   {
    "team": "Uruguay",
-   "champ": 1.2,
+   "champ": 1.4,
    "field": 3.5,
-   "leverage": 0.34
+   "leverage": 0.4
   },
   {
    "team": "Argentina",
-   "champ": 10.9,
+   "champ": 11.0,
    "field": 13.9,
-   "leverage": 0.78
+   "leverage": 0.79
   }
  ],
  "model_market_gaps": [
   {
    "team": "Spain",
-   "sim": 25.8,
+   "sim": 25.5,
    "market": 16.5,
-   "gap": 9.3
+   "gap": 9.0
   },
   {
    "team": "France",
-   "sim": 10.0,
+   "sim": 10.4,
    "market": 16.5,
-   "gap": -6.5
+   "gap": -6.1
   },
   {
    "team": "Argentina",
-   "sim": 14.0,
+   "sim": 14.4,
    "market": 9.2,
-   "gap": 4.8
+   "gap": 5.2
   },
   {
    "team": "England",
-   "sim": 7.4,
+   "sim": 7.6,
    "market": 10.2,
-   "gap": -2.8
+   "gap": -2.6
   },
   {
    "team": "Portugal",
@@ -102,21 +102,21 @@
   },
   {
    "team": "Colombia",
-   "sim": 6.5,
-   "market": 6.9,
-   "gap": -0.5
+   "sim": 6.0,
+   "market": 6.6,
+   "gap": -0.6
   },
   {
    "team": "Germany",
-   "sim": 4.2,
-   "market": 4.5,
+   "sim": 3.7,
+   "market": 4.0,
    "gap": -0.3
   },
   {
    "team": "Brazil",
-   "sim": 3.3,
-   "market": 3.5,
-   "gap": -0.2
+   "sim": 3.4,
+   "market": 3.7,
+   "gap": -0.3
   }
  ]
 }

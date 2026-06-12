@@ -121,6 +121,25 @@ h1{{font-size:26px;margin:0 0 4px}} h2{{font-size:18px;color:#58a6ff;border-bott
 .ecard th{{color:#8b949e;text-align:left;font-weight:500}} .ecard td{{padding:3px 0;border-top:1px solid #0d1117}}
 .good{{color:#27c08a;font-weight:600}} .bad{{color:#d65a5a;font-weight:600}}
 .note{{background:#e0a33a11;border:1px solid #e0a33a44;border-radius:8px;padding:10px 14px;color:#e0a33a;font-size:13px;margin:10px 0}}
+/* ---- scoreboard ---- */
+.sb-grid{{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-bottom:20px}}
+.sb-card{{background:#161b22;border:1px solid #21262d;border-radius:10px;padding:16px;text-align:center}}
+.sb-card h3{{margin:0 0 4px;font-size:16px;color:#58a6ff}}.sb-card .sb-champ{{font-size:12px;color:#8b949e;margin-bottom:12px}}
+.sb-total{{font-size:36px;font-weight:700;color:#e6edf3;line-height:1}}.sb-max{{font-size:12px;color:#8b949e;margin-top:2px}}
+.sb-bar-wrap{{background:#0d1117;border-radius:4px;height:6px;margin:10px 0 8px;overflow:hidden}}
+.sb-bar{{height:100%;border-radius:4px;background:#1f6feb;transition:width .4s}}
+.sb-rounds{{width:100%;border-collapse:collapse;font-size:11px;text-align:left;margin-top:6px}}
+.sb-rounds td{{padding:2px 0;border-top:1px solid #0d1117;color:#8b949e}}.sb-rounds td:last-child{{text-align:right;color:#e6edf3}}
+.sb-matches{{margin-top:18px}}.sb-matches h3{{font-size:14px;color:#8b949e;margin:0 0 8px;text-transform:uppercase;letter-spacing:.5px}}
+.sm-row{{display:flex;justify-content:space-between;align-items:center;padding:6px 10px;border-radius:6px;margin-bottom:4px;background:#161b22;font-size:12px}}
+.sm-hit{{border-left:3px solid #27c08a}}.sm-miss{{border-left:3px solid #d65a5a}}.sm-hit .sm-badge{{color:#27c08a}}.sm-miss .sm-badge{{color:#d65a5a}}
+.sb-div{{margin-top:20px}}.sb-div h3{{font-size:14px;color:#8b949e;margin:0 0 8px;text-transform:uppercase;letter-spacing:.5px}}
+.div-table{{width:100%;border-collapse:collapse;font-size:12px}}
+.div-table th{{color:#8b949e;font-weight:500;padding:4px 8px;text-align:left;border-bottom:1px solid #21262d}}
+.div-table td{{padding:5px 8px;border-top:1px solid #0d1117}}
+.div-win{{color:#27c08a;font-weight:700}}.div-loss{{color:#d65a5a}}.div-pending{{color:#8b949e}}
+.sb-loading{{color:#8b949e;font-size:14px;padding:40px 0;text-align:center}}
+.sb-leader{{display:inline-block;background:#27c08a22;color:#27c08a;border:1px solid #27c08a55;border-radius:12px;padding:2px 10px;font-size:12px;margin-left:6px}}
 .gsh{{color:#58a6ff;font-size:15px;margin:18px 0 10px;border-top:1px solid #21262d;padding-top:12px}}
 /* ---- guide ---- */
 .guide{{background:#0d1117;border:1px solid #21262d;border-radius:12px;margin-bottom:14px}}
@@ -159,7 +178,7 @@ h1{{font-size:26px;margin:0 0 4px}} h2{{font-size:18px;color:#58a6ff;border-bott
   <span class="pill">Fade Brazil 0.21× &amp; Latino over-picks</span>
 </div>
 
-<div class="note">⚑ Group-stage flags: <b>Group E</b> — Entries A/B edge Ecuador over Germany (CONMEBOL Elo inflation); <b>Entry C (3-source) fixes this — Germany 1st.</b> <b>Group D</b> — host USA may be under-rated vs Turkey in all three. Deep bracket is market-corrected. Note: the common-opponent (Massey) model rates France slightly <i>below</i> Elo and Germany <i>above</i> — so France's high rank rests on the betting market, not Massey.</div>
+<div class="note">⚑ <b>Bracket correction (Jun 12):</b> the R32 match-number map was rebuilt verbatim from FIFA.com — the original ESPN-derived numbering had several matches swapped, which mis-routed the R16+ tree (it had Brazil meeting Spain in a semifinal that is impossible in the real bracket). True routing: <b>Germany vs France in the Round of 16 (M89)</b>, Brazil's half runs through England (QF M99), Spain's semifinal opponent comes from the France/Netherlands side. Champions unchanged (A England / B France / C Spain). Picks below reflect the TRUE bracket. <b>Compare against what was actually submitted on Jun 9 — the submitted CSVs are preserved as entry_X_submitted_jun9.csv.</b></div>
 
 <h2 id="guide">📖 How this works — a guide you can explain to anyone</h2>
 <div class="guide">
@@ -178,9 +197,13 @@ h1{{font-size:26px;margin:0 0 4px}} h2{{font-size:18px;color:#58a6ff;border-bott
 </div>
 
 <h2>Knockout bracket</h2>
-<div class="tabs"><span class="tab active" id="tabA" onclick="sw('A')">Entry A — {A['bracket']['champion']} champion (Euro value)</span>
+<div class="tabs">
+<span class="tab" id="tabSB" onclick="sw('SB')">📊 Scoreboard</span>
+<span class="tab active" id="tabA" onclick="sw('A')">Entry A — {A['bracket']['champion']} champion (Euro value)</span>
 <span class="tab" id="tabB" onclick="sw('B')">Entry B — {B['bracket']['champion']} champion (+Portugal→SF)</span>
-<span class="tab" id="tabC" onclick="sw('C')">Entry C — {C['bracket']['champion']} champion (3-source, best single)</span></div>
+<span class="tab" id="tabC" onclick="sw('C')">Entry C — {C['bracket']['champion']} champion (3-source, best single)</span>
+</div>
+<div id="SB" class="view"><div id="sb-root"><div class="sb-loading">Loading scores…</div></div></div>
 <div id="A" class="view active">{tracker_html(A)}<details><summary class="tag">Detailed picks + confidence (Entry A)</summary>{bracket_html(A)}</details><h3 class="gsh">Group stage — Entry A standings &amp; scores</h3><div class="grid">{groups_html(A)}</div></div>
 <div id="B" class="view">{tracker_html(B)}<details><summary class="tag">Detailed picks + confidence (Entry B)</summary>{bracket_html(B)}</details><h3 class="gsh">Group stage — Entry B standings &amp; scores</h3><div class="grid">{groups_html(B)}</div></div>
 <div id="C" class="view">{tracker_html(C)}<details><summary class="tag">Detailed picks + confidence (Entry C)</summary>{bracket_html(C)}</details><h3 class="gsh">Group stage — Entry C standings &amp; scores (note: Germany 1st in Group E)</h3><div class="grid">{groups_html(C)}</div></div>
@@ -192,8 +215,78 @@ h1{{font-size:26px;margin:0 0 4px}} h2{{font-size:18px;color:#58a6ff;border-bott
 <p class="tag" style="margin-top:24px">Confidence = prob margin + cross-source agreement. ✅ advance · ◐ third-place (best 8 qualify). Scores are the most-probable Dixon-Coles scoreline per match. Not betting advice.</p>
 </div>
 <script>
-function sw(v){{for(const id of ['A','B','C']){{document.getElementById(id).classList.toggle('active',id===v);
-document.getElementById('tab'+id).classList.toggle('active',id===v);}}}}
+function sw(v){{
+  for(const id of ['SB','A','B','C']){{
+    document.getElementById(id).classList.toggle('active',id===v);
+    document.getElementById('tab'+id).classList.toggle('active',id===v);
+  }}
+  if(v==='SB' && !window._sbLoaded) loadSB();
+}}
+
+function loadSB(){{
+  window._sbLoaded = true;
+  fetch('scores.json?t='+Date.now())
+    .then(r=>r.json()).then(renderSB)
+    .catch(()=>{{document.getElementById('sb-root').innerHTML='<div class="sb-loading">scores.json not found — run python score_update.py then push.</div>';}});
+}}
+
+function renderSB(d){{
+  const ROUNDS=[['group','Group stage',144],['round32','Round of 32',32],['r16','Round of 16',32],
+                ['qf','Quarterfinals',32],['sf','Semifinals',32],['final','Final',24],['champion','Champion',30]];
+  const total=358;
+  const entries=['A','B','C'];
+  const maxTotal=d.scores.A.total;  // same scale for all
+  const leader=entries.reduce((best,t)=>d.scores[t].total>d.scores[best].total?t:best,'A');
+  const champs={{A:'{A['bracket']['champion']}',B:'{B['bracket']['champion']}',C:'{C['bracket']['champion']}'}};
+
+  let cards='';
+  for(const t of entries){{
+    const s=d.scores[t]; const pct=Math.round(s.total/total*100);
+    const isLead=t===leader&&s.total>0;
+    const rows=ROUNDS.map(([k,label,mx])=>s[k]?`<tr><td>${{label}}</td><td>${{s[k]}}/${{mx}}</td></tr>`:'').join('');
+    cards+=`<div class="sb-card">
+      <h3>Entry ${{t}}${{isLead?'<span class="sb-leader">leading</span>':''}}</h3>
+      <div class="sb-champ">Champion pick: <b>${{champs[t]}}</b></div>
+      <div class="sb-total">${{s.total}}</div><div class="sb-max">/ ${{total}} pts</div>
+      <div class="sb-bar-wrap"><div class="sb-bar" style="width:${{pct}}%"></div></div>
+      ${{rows?`<table class="sb-rounds">${{rows}}</table>`:''}}
+    </div>`;
+  }}
+
+  let matchRows='';
+  if(d.completed_matches.length===0){{
+    matchRows='<div style="color:#8b949e;font-size:13px;padding:8px 0">No group stage results yet.</div>';
+  }} else {{
+    for(const m of d.completed_matches){{
+      const hit=m.hit;
+      matchRows+=`<div class="sm-row ${{hit?'sm-hit':'sm-miss'}}">
+        <span>${{m.home}} ${{m.actual[0]}}-${{m.actual[1]}} ${{m.away}}</span>
+        <span>pick ${{m.pick[0]}}-${{m.pick[1]}} <b class="sm-badge">${{hit?'✓':'✗'}}</b></span>
+      </div>`;
+    }}
+  }}
+
+  let divRows='';
+  for(const row of d.divergence){{
+    const act=row.actual;
+    const cells=['A','B','C'].map(t=>{{
+      if(!act) return `<td class="div-pending">${{row[t]}}</td>`;
+      return `<td class="${{row[t]===act?'div-win':'div-loss'}}">${{row[t]}}</td>`;
+    }}).join('');
+    const actCell=act?`<td class="div-win">${{act}}</td>`:`<td class="div-pending">—</td>`;
+    divRows+=`<tr><td>${{row.label}}</td>${{cells}}${{actCell}}</tr>`;
+  }}
+
+  document.getElementById('sb-root').innerHTML=`
+    <p style="color:#8b949e;font-size:12px;margin:0 0 14px">Updated ${{d.updated}} · ${{d.matches_played}}/${{d.total_group}} group matches played</p>
+    <div class="sb-grid">${{cards}}</div>
+    <div class="sb-matches"><h3>Group stage results vs picks</h3>${{matchRows}}</div>
+    <div class="sb-div"><h3>Key divergence picks (where A/B/C differ)</h3>
+      <table class="div-table"><thead><tr><th>Round</th><th>Entry A</th><th>Entry B</th><th>Entry C</th><th>Actual</th></tr></thead>
+      <tbody>${{divRows}}</tbody></table>
+      <p style="color:#8b949e;font-size:11px;margin:8px 0 0">Green = correct. Entries diverge only from QF onwards — group stage and R32/R16 picks are identical across all three.</p>
+    </div>`;
+}}
 </script></body></html>'''
 
 open(f'{P}\\output\\report.html','w',encoding='utf-8').write(HTML)

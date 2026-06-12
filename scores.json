@@ -86,8 +86,8 @@
   {
    "label": "QF M99",
    "A": "England",
-   "B": "France",
-   "C": "France",
+   "B": "England",
+   "C": "England",
    "actual": null
   },
   {
@@ -100,7 +100,7 @@
   {
    "label": "SF M102",
    "A": "England",
-   "B": "France",
+   "B": "Portugal",
    "C": "Argentina",
    "actual": null
   },

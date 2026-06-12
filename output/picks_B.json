@@ -96,14 +96,6 @@
    },
    {
     "m": 74,
-    "home": "Brazil",
-    "away": "Japan",
-    "pick": "Brazil",
-    "conf": "Med",
-    "p": 0.585
-   },
-   {
-    "m": 75,
     "home": "Germany",
     "away": "Czech Republic",
     "pick": "Germany",
@@ -111,7 +103,7 @@
     "p": 0.759
    },
    {
-    "m": 76,
+    "m": 75,
     "home": "Netherlands",
     "away": "Morocco",
     "pick": "Netherlands",
@@ -119,20 +111,28 @@
     "p": 0.595
    },
    {
-    "m": 77,
-    "home": "Ecuador",
-    "away": "Norway",
-    "pick": "Norway",
-    "conf": "Low",
-    "p": 0.515
+    "m": 76,
+    "home": "Brazil",
+    "away": "Japan",
+    "pick": "Brazil",
+    "conf": "Med",
+    "p": 0.585
    },
    {
-    "m": 78,
+    "m": 77,
     "home": "France",
     "away": "Scotland",
     "pick": "France",
     "conf": "High",
     "p": 0.811
+   },
+   {
+    "m": 78,
+    "home": "Ecuador",
+    "away": "Norway",
+    "pick": "Norway",
+    "conf": "Low",
+    "p": 0.515
    },
    {
     "m": 79,
@@ -152,14 +152,6 @@
    },
    {
     "m": 81,
-    "home": "Belgium",
-    "away": "Algeria",
-    "pick": "Belgium",
-    "conf": "Med",
-    "p": 0.638
-   },
-   {
-    "m": 82,
     "home": "Turkey",
     "away": "Sweden",
     "pick": "Turkey",
@@ -167,20 +159,28 @@
     "p": 0.696
    },
    {
-    "m": 83,
-    "home": "Spain",
-    "away": "Austria",
-    "pick": "Spain",
-    "conf": "High",
-    "p": 0.849
+    "m": 82,
+    "home": "Belgium",
+    "away": "Algeria",
+    "pick": "Belgium",
+    "conf": "Med",
+    "p": 0.638
    },
    {
-    "m": 84,
+    "m": 83,
     "home": "Colombia",
     "away": "Croatia",
     "pick": "Colombia",
     "conf": "Med",
     "p": 0.616
+   },
+   {
+    "m": 84,
+    "home": "Spain",
+    "away": "Austria",
+    "pick": "Spain",
+    "conf": "High",
+    "p": 0.849
    },
    {
     "m": 85,
@@ -192,14 +192,6 @@
    },
    {
     "m": 86,
-    "home": "Paraguay",
-    "away": "Iran",
-    "pick": "Paraguay",
-    "conf": "Med",
-    "p": 0.559
-   },
-   {
-    "m": 87,
     "home": "Argentina",
     "away": "Uruguay",
     "pick": "Argentina",
@@ -207,38 +199,46 @@
     "p": 0.745
    },
    {
-    "m": 88,
+    "m": 87,
     "home": "Portugal",
     "away": "United States",
     "pick": "Portugal",
     "conf": "High",
     "p": 0.83
+   },
+   {
+    "m": 88,
+    "home": "Paraguay",
+    "away": "Iran",
+    "pick": "Paraguay",
+    "conf": "Med",
+    "p": 0.559
    }
   ],
   "r16": [
    {
     "m": 89,
+    "a": "Germany",
+    "b": "France",
+    "pick": "France",
+    "conf": "Med",
+    "p": 0.619
+   },
+   {
+    "m": 90,
+    "a": "Canada",
+    "b": "Netherlands",
+    "pick": "Netherlands",
+    "conf": "High",
+    "p": 0.717
+   },
+   {
+    "m": 91,
     "a": "Brazil",
     "b": "Norway",
     "pick": "Brazil",
     "conf": "Low",
     "p": 0.527
-   },
-   {
-    "m": 90,
-    "a": "Canada",
-    "b": "Germany",
-    "pick": "Germany",
-    "conf": "High",
-    "p": 0.732
-   },
-   {
-    "m": 91,
-    "a": "Netherlands",
-    "b": "France",
-    "pick": "France",
-    "conf": "Med",
-    "p": 0.636
    },
    {
     "m": 92,
@@ -250,45 +250,45 @@
    },
    {
     "m": 93,
-    "a": "Spain",
-    "b": "Colombia",
+    "a": "Colombia",
+    "b": "Spain",
     "pick": "Spain",
     "conf": "High",
     "p": 0.684
    },
    {
     "m": 94,
-    "a": "Belgium",
-    "b": "Turkey",
+    "a": "Turkey",
+    "b": "Belgium",
     "pick": "Belgium",
     "conf": "Low",
     "p": 0.523
    },
    {
     "m": 95,
-    "a": "Paraguay",
-    "b": "Portugal",
-    "pick": "Portugal",
+    "a": "Argentina",
+    "b": "Paraguay",
+    "pick": "Argentina",
     "conf": "High",
-    "p": 0.729
+    "p": 0.803
    },
    {
     "m": 96,
     "a": "Switzerland",
-    "b": "Argentina",
-    "pick": "Argentina",
-    "conf": "High",
-    "p": 0.721
+    "b": "Portugal",
+    "pick": "Portugal",
+    "conf": "Med",
+    "p": 0.636
    }
   ],
   "qf": [
    {
     "m": 97,
-    "a": "Brazil",
-    "b": "Germany",
-    "pick": "Brazil",
-    "conf": "Low",
-    "p": 0.504
+    "a": "France",
+    "b": "Netherlands",
+    "pick": "France",
+    "conf": "Med",
+    "p": 0.636
    },
    {
     "m": 98,
@@ -300,16 +300,16 @@
    },
    {
     "m": 99,
-    "a": "France",
+    "a": "Brazil",
     "b": "England",
-    "pick": "France",
-    "conf": "Low",
-    "p": 0.538
+    "pick": "England",
+    "conf": "Med",
+    "p": 0.578
    },
    {
     "m": 100,
-    "a": "Portugal",
-    "b": "Argentina",
+    "a": "Argentina",
+    "b": "Portugal",
     "pick": "Portugal",
     "conf": "Low",
     "p": 0.408
@@ -318,27 +318,27 @@
   "sf": [
    {
     "m": 101,
-    "a": "Brazil",
+    "a": "France",
     "b": "Spain",
-    "pick": "Spain",
-    "conf": "High",
-    "p": 0.737
+    "pick": "France",
+    "conf": "Low",
+    "p": 0.368
    },
    {
     "m": 102,
-    "a": "France",
+    "a": "England",
     "b": "Portugal",
-    "pick": "France",
+    "pick": "Portugal",
     "conf": "Low",
-    "p": 0.542
+    "p": 0.497
    }
   ],
   "final": {
-   "a": "Spain",
-   "b": "France",
+   "a": "France",
+   "b": "Portugal",
    "pick": "France",
    "conf": "Low",
-   "p": 0.368
+   "p": 0.542
   },
   "champion": "France"
  },

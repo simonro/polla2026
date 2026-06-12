@@ -90,41 +90,41 @@ Group L,1st: England,2nd: Croatia,3rd: Panama
 
 == ROUND OF 32 winners (16) ==
 M73,South Korea,vs,Canada,-> Canada,Low
-M74,Brazil,vs,Japan,-> Brazil,Med
-M75,Germany,vs,Czech Republic,-> Germany,High
-M76,Netherlands,vs,Morocco,-> Netherlands,Med
-M77,Ecuador,vs,Norway,-> Norway,Low
-M78,France,vs,Scotland,-> France,High
+M74,Germany,vs,Czech Republic,-> Germany,High
+M75,Netherlands,vs,Morocco,-> Netherlands,Med
+M76,Brazil,vs,Japan,-> Brazil,Med
+M77,France,vs,Scotland,-> France,High
+M78,Ecuador,vs,Norway,-> Norway,Low
 M79,Mexico,vs,Ivory Coast,-> Mexico,High
 M80,England,vs,Senegal,-> England,High
-M81,Belgium,vs,Algeria,-> Belgium,Med
-M82,Turkey,vs,Sweden,-> Turkey,High
-M83,Spain,vs,Austria,-> Spain,High
-M84,Colombia,vs,Croatia,-> Colombia,Med
+M81,Turkey,vs,Sweden,-> Turkey,High
+M82,Belgium,vs,Algeria,-> Belgium,Med
+M83,Colombia,vs,Croatia,-> Colombia,Med
+M84,Spain,vs,Austria,-> Spain,High
 M85,Switzerland,vs,Egypt,-> Switzerland,High
-M86,Paraguay,vs,Iran,-> Paraguay,Med
-M87,Argentina,vs,Uruguay,-> Argentina,High
-M88,Portugal,vs,United States,-> Portugal,High
+M86,Argentina,vs,Uruguay,-> Argentina,High
+M87,Portugal,vs,United States,-> Portugal,High
+M88,Paraguay,vs,Iran,-> Paraguay,Med
 
 == ROUND OF 16 winners (8) ==
-M89,Brazil,vs,Norway,-> Brazil,Low
-M90,Canada,vs,Germany,-> Germany,High
-M91,Netherlands,vs,France,-> France,Med
+M89,Germany,vs,France,-> France,Med
+M90,Canada,vs,Netherlands,-> Netherlands,High
+M91,Brazil,vs,Norway,-> Brazil,Low
 M92,Mexico,vs,England,-> England,High
-M93,Spain,vs,Colombia,-> Spain,High
-M94,Belgium,vs,Turkey,-> Belgium,Low
-M95,Paraguay,vs,Portugal,-> Portugal,High
-M96,Switzerland,vs,Argentina,-> Argentina,High
+M93,Colombia,vs,Spain,-> Spain,High
+M94,Turkey,vs,Belgium,-> Belgium,Low
+M95,Argentina,vs,Paraguay,-> Argentina,High
+M96,Switzerland,vs,Portugal,-> Portugal,Med
 
 == QUARTERFINALS winners (4) ==
-M97,Brazil,vs,Germany,-> Brazil,Low
+M97,France,vs,Netherlands,-> France,Med
 M98,Spain,vs,Belgium,-> Spain,High
-M99,France,vs,England,-> France,Low
-M100,Portugal,vs,Argentina,-> Portugal,Low
+M99,Brazil,vs,England,-> England,Med
+M100,Argentina,vs,Portugal,-> Portugal,Low
 
 == SEMIFINALS winners (2 = finalists) ==
-M101,Brazil,vs,Spain,-> Spain,High
-M102,France,vs,Portugal,-> France,Low
+M101,France,vs,Spain,-> France,Low
+M102,England,vs,Portugal,-> Portugal,Low
 
-== FINAL ==,Spain,vs,France,-> France
+== FINAL ==,France,vs,Portugal,-> France
 == CHAMPION (30 pts) ==,France

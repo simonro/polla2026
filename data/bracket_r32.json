@@ -1,25 +1,25 @@
 {
   "_meta": {
-    "source": "ESPN format/schedule article (read as text), dated 2026-04-01, post-playoff final",
-    "note": "R32 slot map. '1X'=group X winner, '2X'=group X runner-up, '3[GROUPS]'=best-third from one of the listed groups. Third->slot resolved per sim by bipartite matching on the allowed-groups constraint. Match order as listed by ESPN (used only for labeling).",
+    "source": "FIFA.com official knockout-stage article (published 2025-12-06, post-draw) + FIFA bracket page screenshot 2026-06-12. Verified verbatim. CORRECTED 2026-06-12: previous file had ESPN-derived match numbers that were permuted (74<->76, 75->74, 77<->78, 81<->82, 83<->84, 86->88, 87->86, 88->87), which rewired the R16 routing.",
+    "note": "R32 slot map. '1X'=group X winner, '2X'=group X runner-up, '3[GROUPS]'=best-third from one of the listed groups. Third->slot resolved per sim by bipartite matching on the allowed-groups constraint.",
     "schedule": "R32 Jun 28-Jul 3; R16 Jul 4-7; QF Jul 9-11; SF Jul 14-15; Final Jul 19 (East Rutherford)"
   },
   "r32": [
     {"m": 73, "home": "2A", "away": "2B", "venue": "Inglewood"},
-    {"m": 74, "home": "1C", "away": "2F", "venue": "Houston"},
-    {"m": 75, "home": "1E", "away": "3ABCDF", "venue": "Foxborough"},
-    {"m": 76, "home": "1F", "away": "2C", "venue": "Guadalupe"},
-    {"m": 77, "home": "2E", "away": "2I", "venue": "Arlington"},
-    {"m": 78, "home": "1I", "away": "3CDFGH", "venue": "East Rutherford"},
+    {"m": 74, "home": "1E", "away": "3ABCDF", "venue": "Foxborough"},
+    {"m": 75, "home": "1F", "away": "2C", "venue": "Guadalupe"},
+    {"m": 76, "home": "1C", "away": "2F", "venue": "Houston"},
+    {"m": 77, "home": "1I", "away": "3CDFGH", "venue": "East Rutherford"},
+    {"m": 78, "home": "2E", "away": "2I", "venue": "Arlington"},
     {"m": 79, "home": "1A", "away": "3CEFHI", "venue": "Mexico City"},
     {"m": 80, "home": "1L", "away": "3EHIJK", "venue": "Atlanta"},
-    {"m": 81, "home": "1G", "away": "3AEHIJ", "venue": "Seattle"},
-    {"m": 82, "home": "1D", "away": "3BEFIJ", "venue": "Santa Clara"},
-    {"m": 83, "home": "1H", "away": "2J", "venue": "Inglewood"},
-    {"m": 84, "home": "2K", "away": "2L", "venue": "Toronto"},
+    {"m": 81, "home": "1D", "away": "3BEFIJ", "venue": "Santa Clara"},
+    {"m": 82, "home": "1G", "away": "3AEHIJ", "venue": "Seattle"},
+    {"m": 83, "home": "2K", "away": "2L", "venue": "Toronto"},
+    {"m": 84, "home": "1H", "away": "2J", "venue": "Inglewood"},
     {"m": 85, "home": "1B", "away": "3EFGIJ", "venue": "Vancouver"},
-    {"m": 86, "home": "2D", "away": "2G", "venue": "Arlington"},
-    {"m": 87, "home": "1J", "away": "2H", "venue": "Miami Gardens"},
-    {"m": 88, "home": "1K", "away": "3DEIJL", "venue": "Kansas City"}
+    {"m": 86, "home": "1J", "away": "2H", "venue": "Miami Gardens"},
+    {"m": 87, "home": "1K", "away": "3DEIJL", "venue": "Kansas City"},
+    {"m": 88, "home": "2D", "away": "2G", "venue": "Arlington"}
   ]
 }
