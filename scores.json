@@ -1,0 +1,122 @@
+{
+ "updated": "2026-06-12",
+ "matches_played": 2,
+ "total_group": 72,
+ "scores": {
+  "A": {
+   "group": 2,
+   "round32": 0,
+   "r16": 0,
+   "qf": 0,
+   "sf": 0,
+   "final": 0,
+   "champion": 0,
+   "total": 2
+  },
+  "B": {
+   "group": 2,
+   "round32": 0,
+   "r16": 0,
+   "qf": 0,
+   "sf": 0,
+   "final": 0,
+   "champion": 0,
+   "total": 2
+  },
+  "C": {
+   "group": 2,
+   "round32": 0,
+   "r16": 0,
+   "qf": 0,
+   "sf": 0,
+   "final": 0,
+   "champion": 0,
+   "total": 2
+  }
+ },
+ "max": {
+  "group": 144,
+  "round32": 32,
+  "r16": 32,
+  "qf": 32,
+  "sf": 32,
+  "final": 24,
+  "champion": 30
+ },
+ "completed_matches": [
+  {
+   "group": "A",
+   "home": "Mexico",
+   "away": "South Africa",
+   "pick": [
+    2,
+    0
+   ],
+   "actual": [
+    2,
+    0
+   ],
+   "hit": true
+  },
+  {
+   "group": "A",
+   "home": "South Korea",
+   "away": "Czech Republic",
+   "pick": [
+    1,
+    1
+   ],
+   "actual": [
+    2,
+    1
+   ],
+   "hit": false
+  }
+ ],
+ "ko_results": {
+  "_note": "KO round results. Fill in winner team name as matches are played. Match numbers match bracket_r32/tree.",
+  "r32": {},
+  "r16": {},
+  "qf": {},
+  "sf": {},
+  "final": null,
+  "champion": null
+ },
+ "divergence": [
+  {
+   "label": "QF M99",
+   "A": "England",
+   "B": "France",
+   "C": "France",
+   "actual": null
+  },
+  {
+   "label": "QF M100",
+   "A": "Argentina",
+   "B": "Portugal",
+   "C": "Argentina",
+   "actual": null
+  },
+  {
+   "label": "SF M102",
+   "A": "England",
+   "B": "France",
+   "C": "Argentina",
+   "actual": null
+  },
+  {
+   "label": "Final pick",
+   "A": "England",
+   "B": "France",
+   "C": "Spain",
+   "actual": null
+  },
+  {
+   "label": "Champion",
+   "A": "England",
+   "B": "France",
+   "C": "Spain",
+   "actual": null
+  }
+ ]
+}
