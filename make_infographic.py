@@ -178,7 +178,7 @@ h1{{font-size:26px;margin:0 0 4px}} h2{{font-size:18px;color:#58a6ff;border-bott
   <span class="pill">Fade Brazil 0.21× &amp; Latino over-picks</span>
 </div>
 
-<div class="note">⚑ <b>Bracket correction (Jun 12):</b> the R32 match-number map was rebuilt verbatim from FIFA.com — the original ESPN-derived numbering had several matches swapped, which mis-routed the R16+ tree (it had Brazil meeting Spain in a semifinal that is impossible in the real bracket). True routing: <b>Germany vs France in the Round of 16 (M89)</b>, Brazil's half runs through England (QF M99), Spain's semifinal opponent comes from the France/Netherlands side. Champions unchanged (A England / B France / C Spain). Picks below reflect the TRUE bracket. <b>Compare against what was actually submitted on Jun 9 — the submitted CSVs are preserved as entry_X_submitted_jun9.csv.</b></div>
+<div class="note">⚑ <b>Bracket correction (Jun 12):</b> the R32 match-number map was rebuilt verbatim from FIFA.com. The original ESPN-derived numbering had several matches swapped, which mis-routed the R16+ tree (it produced a Brazil vs Spain semifinal that is impossible in the real bracket). True routing: <b>Germany vs France in the Round of 16 (M89)</b>; Brazil's half runs through England (QF M99); Spain's semifinal opponent comes from the France/Netherlands side. Champions unchanged (A England / B France / C Spain). Picks below reflect the TRUE bracket. <b>Compare against what was actually submitted on Jun 9; the submitted CSVs are preserved as entry_X_submitted_jun9.csv.</b></div>
 
 <h2 id="guide">📖 How this works — a guide you can explain to anyone</h2>
 <div class="guide">
